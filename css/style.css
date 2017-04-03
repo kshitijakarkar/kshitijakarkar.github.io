@@ -103,10 +103,10 @@ ul.a{
 }
 .content2{
 
-	/*background: rgba(0, 0, 0, 0.7);*/
+	background: rgba(0, 0, 0, 0);
 	/*color:white;*/
 	height: 800px;
-	width:1400px;
+	width:100%;
 	/*font-size:20px;*/
 	/*top: 100px;*/
 	margin:auto;
@@ -128,11 +128,11 @@ ul.a{
 
 
 .change{
-	color:purple;
+	color:#AA00FF;
 
 }
 .green_c{
-	color: green;
+	color:green;
 }
 .blue_c{
 	color:blue;
@@ -155,23 +155,63 @@ ul.a{
 	/*color:white;*/
 	height: 1000px;
 	width:1400px;
-	font-size:15px;
+	font-size:20px;
 	/*top: 100px;*/
 	margin:auto;
 	padding:15px;
+	font-family: 'Lora', serif;
+
 	position: relative;
 
 }
 ul.list_of_operations{
-	list-style-type: circle;
+	/*list-style-type: circle;*/
+	list-style-type:inherit;
 	color:white;
 	margin-left: 150px;
-	/*font-family: 'Indie Flower';*/
-	font-size: 15px;
+	font-family: 'Inconsolata', monospace;
+	text-shadow: none;
+	font-size: 18px;
 
 
 }
-
+.marginchange{
+	margin-top: -10px;
+	margin-left: 200px;
+}
+.effects_more{
+	font-size: 23px;
+	/*text-decoration: underline;*/
+	/*text-shadow: 2px 2px 2px white;*/
+}
 /*#work{
 	color:red;
 }*/
+
+@media only screen and (max-width: 600px) {
+.heading{
+	color: red;
+	font-size: 45px;
+}
+
+#a1{
+	object-fit:contain;
+	/*background-repeat: no-repeat;*/
+	background-size: cover;
+	height: inherit;
+
+}
+
+#a1 p{
+	font-size: 50%;
+}
+.content{
+	width: 50%;
+}
+.profilepic{
+	/*height: auto;*/
+	margin-left: 5px;
+	width: 100%;
+}
+
+}
