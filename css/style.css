@@ -243,7 +243,11 @@ ul.list_of_operations{
 }
 
 .format{
-	margin-left: 180px;
+	background: rgba(255,255,255, 0.5);
+	margin-left: 150px;
+	margin-right: 120px;
+	margin-bottom: 10px;
+	padding: 10px;
 }
 
 img.logo{
@@ -257,4 +261,15 @@ img.logo{
 
 .organise{
 	margin-right: 150px;;
+}
+
+.organise p{
+	margin-left: 60px;
+	font-family: 'Bitter', serif;
+}
+
+.format h1{
+	font-family: 'Spirax', cursive;
+	font-size: 45x;
+	/*color: #AA00FF;*/
 }
