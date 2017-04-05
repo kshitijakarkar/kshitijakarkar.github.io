@@ -3,6 +3,7 @@ html, body {
     overflow-x: hidden;
 }
 
+
 #a1{
 	/*background: url(images/sea.jpg);*/
 	/*background: url("images/profilepic.jpg");*/
@@ -193,7 +194,7 @@ ul.list_of_operations{
 	color:red;
 }*/
 
-@media only screen and (max-width: 600px) {
+/*@media only screen and (max-width: 600px) {
 .heading{
 	color: red;
 	font-size: 45px;
@@ -202,7 +203,7 @@ ul.list_of_operations{
 #a1{
 	object-fit:contain;
 	/*background-repeat: no-repeat;*/
-	background-size: cover;
+	/*background-size: cover;
 	height: inherit;
 
 }
@@ -215,18 +216,18 @@ ul.list_of_operations{
 }
 .profilepic{
 	/*height: auto;*/
-	margin-left: 5px;
+	/*margin-left: 5px;
 	width: 100%;
-}
-#a2{
+}*/
+/*#a2{
 	object-fit:contain;
 	/*background-repeat: no-repeat;*/
-	background-size: cover;
+	/*background-size: cover;
 	height: inherit;
 
-}
+}*/
 
-}
+/*}*/
 
 
 #a4{
@@ -270,6 +271,6 @@ img.logo{
 
 .format h1{
 	font-family: 'Spirax', cursive;
-	font-size: 45x;
+	font-size: 45px;
 	/*color: #AA00FF;*/
 }
