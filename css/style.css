@@ -213,5 +213,39 @@ ul.list_of_operations{
 	margin-left: 5px;
 	width: 100%;
 }
+#a2{
+	object-fit:contain;
+	/*background-repeat: no-repeat;*/
+	background-size: cover;
+	height: inherit;
 
+}
+
+}
+
+
+#a4{
+	/*background: url(images/sea.jpg);*/
+	/*background: url("images/profilepic.jpg");*/
+	object-fit:contain;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100%;
+	padding-top: 50px;
+	/*width: 100%;
+	padding: 0;
+	margin: 0;*/
+}
+
+.format{
+	margin-left: 180px;
+}
+
+img.logo{
+	float :left;
+	/*margin-left: 180px;*/
+	/*width: 0px;*/
+	border-radius: 70%;
+  height: 40px;
+	width: 40px;
 }
