@@ -95,7 +95,7 @@ ul.a{
 	/*letter-spacing: 1.5px;*/
 	padding: 0;
 	margin: 0;
-	margin-top: -120px;
+	margin-top: -10px;
 	margin-left: 180px;
 
 
@@ -416,15 +416,20 @@ img.logo{
     .Name{
         font-size: 20px;
         margin-left: auto;
+        margin-top: -100px;
+    }
+
+    ul.a{
+      margin-left: 0px;
+      font-size: 15px;
+
     }
     .Name1{
           font-size: 20px;
-          ul.a{
-        margin-left: auto;
+          margin-left: auto;
+
     }
-      font-size: 15px;
-      margin-left: auto;
-    }
+
 
     .content3{
       margin-left: auto;
