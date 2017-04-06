@@ -3,6 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
 <link rel="stylesheet" type ="text/css" href="bootstrap-3.3.7-dist/css/bootstrap.css">
 <link rel="stylesheet" type ="text/css" href="css/style.css">
 <link href="https://fonts.googleapis.com/css?family=Macondo" rel="stylesheet">
@@ -11,8 +12,10 @@
 <link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Spirax" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Bitter" rel="stylesheet">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/3/w3.css">
 <title> Kshitija Karkar </title>
 <link rel="icon" href="images/2017-04-05.png">
+
 </head>
 <body>
 <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
@@ -35,8 +38,8 @@
         <li><a href="#a2">Education</a></li>
 	       <li><a href="#a3">Work</a></li>
 	        <li><a href="#a4">Projects</a></li>
-	         <li><a href="#5">Achievements</a></li>
-	          <li><a href="#6">Contact Me</a></li>
+	         <li><a href="#a5">Contact Me</a></li>
+	          <!-- <li><a href="#6">Contact Me</a></li> -->
       </ul>
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container -->
@@ -58,7 +61,7 @@
   <div class ="content2">
     <h1 class = "heading">Education</h1>
 
-   <h3 class="Name">California State University,Chico - M.S. in Computer Science  &nbsp&nbsp&nbspDec-2016</h3>
+   <h3 class="Name">California State University, &nbspChico - M.S. in Computer Science  &nbsp&nbsp&nbspDec-2016</h3>
     <ul class="a">
       <li>Distributed Systems </li>
       <li>Object-Oriented Programming</li>
@@ -85,7 +88,7 @@
 
 </div>
 
-<div id="a3" style="min-height:1000px; min-width:0px;background:#1d2020">
+<div id="a3" style="min-height:1000px; background:#1d2020">
   <h1 class = "title1" id = "work">Work</h1>
   <div class="content3">
       <!-- <span class = "change">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp #include</span> <span class="green_c">&lt;interests&gt;</span>
@@ -98,7 +101,7 @@
       <br><br><span  class = "blue_c">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspexplore()</span>
       <br><span class= "white_c">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&#123;</span> -->
       <div class ="marginchange">
-      <br><span class = "change">&emsp;&emsp;&emsp;&emsp;while</span><span class= "white_c">( explore )</span>
+      <span class = "change">&emsp;&emsp;&emsp;&emsp;while</span><span class= "white_c">( explore )</span>
       <br><span class= "white_c">&emsp;&emsp;&emsp;&emsp;&#123;</span>
       <br><span class = "change">&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;for</span><span class= "white_c">( &nbsp&nbsp <span class="effects_more">Intern At Fusion Adversiting - New York</span>&nbsp&nbsp  )</span>
       <br><span class = "white_c">&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&#123;</span>
@@ -199,12 +202,33 @@ The entire game is developed using sockets, message passing queues and client-se
 </div>
 </div>
 
-<div id="5" style="min-height:1000px; min-width:0px;background:black">
+<div id="a5" style="min-height:1000px; min-width:0px;background-image:url('images/Contact.jpg');">
+  <div class="contacts">
+  <h1> Contact Me </h1>
+  <div class = "form">
+    <!-- <form action="contact.php" method="POST"> -->
+<form name="form1" action="contact.php" method="post" enctype="multipart/form-data">
+    <label>Name</label>
+    <input name="name" placeholder="Type Here" id="name" required>
+
+    <label>Email</label>
+    <input name="email" type="email" placeholder="Enter your email id" id="email" required>
+
+    <label>Message</label>
+    <textarea name="message" placeholder="Type Here" id="msg" required></textarea >
+
+    <input id="submit" name="submit" type="submit" value="Send Message">
+
+</form>
+  </div>
+</div>
 </div>
 
-<div id="6" style="min-height:1000px;background:red">
-</div>
+
 <script type="text/javascript" src="js/jquery-3.2.0.min.js"></script>
 <script src="js/scroll.js"> </script>
+<script src="js/Window_resize.js"></script>
+<!-- <script> -->
+<!-- </script> -->
 </body>
 </html>
