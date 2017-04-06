@@ -70,9 +70,9 @@ h1{
 	object-fit:contain;
 	background-repeat: no-repeat;
 	background-size: cover;
-	/*background-position: center;*/
+	background-position: center;
 	height: 100%;
-	padding-top: 35px;
+	padding-top: 15px;
 	/*width: 100%;
 	padding: 0;
 	margin: 0;*/
@@ -80,9 +80,9 @@ h1{
 ul.a{
 	list-style-type: circle;
 	color:white;
-	margin-left: 300px;
+	margin-left: 350px;
 	font-family: 'Indie Flower';
-	font-size: 20px;
+	font-size: 24px;
 
 
 }
@@ -90,13 +90,13 @@ ul.a{
 
 	color:white;
 	font-family: 'Indie Flower';
-	font-size: 30px;
+	font-size: 32px;
 	/*font-weight: bold;*/
 	/*letter-spacing: 1.5px;*/
 	padding: 0;
 	margin: 0;
 	margin-top: -70px;
-	margin-left: 200px;
+	margin-left: 250px;
 
 
 }
@@ -105,12 +105,12 @@ ul.a{
 	font-family: 'Indie Flower';
 	font-size: 20px;
 	color:white;
-	font-size: 30px;
+	font-size: 32px;
 	/*font-weight: bold;*/
 	/*letter-spacing: 1.5px;*/
 	padding:0;
 	margin-top: 30px;
-	margin-left: 200px;
+	margin-left: 250px;
 
 
 }
@@ -386,8 +386,9 @@ img.logo{
   color: red;
 }
 
-	@media(max-width:400px)
+	@media(max-width:420px)
 	{
+
 		#a1{
 			background-position: center;
 			/*height:567%;*/
@@ -405,4 +406,80 @@ img.logo{
 		#a1 p{
 			font-size: initial;
 		}
+    #a2{
+      background-position: center;
+
+    }
+    .heading{
+      line-height: 350px;
+    }
+    .Name{
+        font-size: 20px;
+        margin-left: auto;
+    }
+    .Name1{
+          font-size: 20px;
+        margin-left: auto;
+    }
+    ul.a{
+      font-size: 15px;
+      margin-left: auto;
+    }
+
+    .content3{
+      margin-left: auto;
+      margin-right: 50px;
+      font-size: 100%;
+    }
+    ul.list_of_operations{
+    	/*list-style-type: circle;*/
+      font-size: 90%;
+      margin-left: 80px;
+      position: relative;
+      overflow: auto;
+
+    }
+    .marginchange{
+      margin-left: -50px;
+
+    }
+    .effects_more{
+      font-size: 100%;
+    }
+
+    .format{
+    	margin: 20px;
+    	padding: 10px;
+    }
+    .format h2{
+      font-size: 20px;
+      font-weight: bold;
+      text-align: left;
+    }
+
+
+    .organise{
+    	margin-right: 50px;
+    }
+
+    .organise p{
+      font-size: 15px;
+    }
+
+    .form {
+    margin-top: 300px;
+     margin-left: 0px; */
+    height: 600px;
+}
+    .connect{
+    	/*margin-bottom:  500px;*/
+    	margin-left: 10px;
+      /*float: left;*/
+      /*padding: 30px;*/
+    }
+
+
+
+
+
 	}
