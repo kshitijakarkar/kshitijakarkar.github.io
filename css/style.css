@@ -55,7 +55,7 @@ h1{
 .heading{
 	margin: 0;
 	padding:0;
-	line-height: 280px;
+	line-height: 350px;
 	color: white;
 	text-align: center;
 	font-family: 'Indie Flower';
@@ -82,7 +82,7 @@ ul.a{
 	color:white;
 	margin-left: 350px;
 	font-family: 'Indie Flower';
-	font-size: 24px;
+	font-size: 20px;
 
 
 }
@@ -90,27 +90,27 @@ ul.a{
 
 	color:white;
 	font-family: 'Indie Flower';
-	font-size: 32px;
+	font-size: 30px;
 	/*font-weight: bold;*/
 	/*letter-spacing: 1.5px;*/
 	padding: 0;
 	margin: 0;
-	margin-top: -70px;
-	margin-left: 250px;
+	margin-top: -120px;
+	margin-left: 180px;
 
 
 }
 
 .Name1{
 	font-family: 'Indie Flower';
-	font-size: 20px;
+	/*font-size: 20px;*/
 	color:white;
-	font-size: 32px;
+	font-size: 30px;
 	/*font-weight: bold;*/
 	/*letter-spacing: 1.5px;*/
 	padding:0;
 	margin-top: 30px;
-	margin-left: 250px;
+	margin-left: 180px;
 
 
 }
@@ -419,9 +419,9 @@ img.logo{
     }
     .Name1{
           font-size: 20px;
+          ul.a{
         margin-left: auto;
     }
-    ul.a{
       font-size: 15px;
       margin-left: auto;
     }
